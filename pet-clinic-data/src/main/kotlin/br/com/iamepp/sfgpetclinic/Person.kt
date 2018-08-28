@@ -1,4 +1,4 @@
-package br.com.iamepp.sfgpetclinic.model
+package br.com.iamepp.sfgpetclinic
 
 abstract class Person : BaseEntity() {
     var firstName: String? = ""

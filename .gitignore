@@ -2,6 +2,15 @@
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 
+/pet-clinic-data/.gradle
+/pet-clinic-data/build/
+
+/pet-clinic-web/.gradle
+/pet-clinic-web/build/
+/pet-clinic-web/out/
+
+
+
 ### STS ###
 .apt_generated
 .classpath

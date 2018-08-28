@@ -1,4 +1,4 @@
-package br.com.iamepp.sfgpetclinic.model
+package br.com.iamepp.sfgpetclinic
 
 import org.springframework.data.annotation.CreatedBy
 import org.springframework.data.annotation.CreatedDate

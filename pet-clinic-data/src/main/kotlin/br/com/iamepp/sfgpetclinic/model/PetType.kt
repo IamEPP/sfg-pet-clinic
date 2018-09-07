@@ -1,3 +1,8 @@
 package br.com.iamepp.sfgpetclinic.model
 
-data class PetType(val name: String)
+import javax.persistence.Entity
+import javax.persistence.Table
+
+@Entity
+@Table(name = "pet_types")
+data class PetType(val name: String): BaseEntity()

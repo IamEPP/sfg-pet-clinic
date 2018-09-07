@@ -4,6 +4,7 @@
 
 /pet-clinic-data/.gradle
 /pet-clinic-data/build/
+/pet-clinic-data/out/
 
 /pet-clinic-web/.gradle
 /pet-clinic-web/build/

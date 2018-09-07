@@ -1,4 +1,4 @@
-package br.com.iamepp.sfgpetclinic
+package br.com.iamepp.sfgpetclinic.model
 
 import java.time.LocalDate
 

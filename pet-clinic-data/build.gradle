@@ -36,11 +36,11 @@ apply plugin: 'net.researchgate.release'
 
 jar {
     baseName = 'pet-clinic-data'
-    version = '0.0.1-SNAPSHOT'
+    version = '0.0.2-SNAPSHOT'
 }
 
 group = 'br.com.iamepp'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.2-SNAPSHOT'
 sourceCompatibility = 10
 
 compileKotlin {

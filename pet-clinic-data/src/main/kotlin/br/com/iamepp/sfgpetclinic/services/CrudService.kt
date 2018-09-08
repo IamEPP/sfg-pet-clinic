@@ -1,9 +1,9 @@
 package br.com.iamepp.sfgpetclinic.services
 
-interface CrudService<Type, ID> {
-    fun findAll(): Set<Type>
-    fun findById(id: ID): Type?
-    fun save(t: Type): Type
-    fun delete(t: Type)
-    fun deleteById(i: ID)
+interface CrudService<Entity, Identifier> {
+    fun findAll(): Set<Entity>
+    fun findById(id: Identifier): Entity?
+    fun save(id: Identifier, entity: Entity): Entity
+    fun delete(entity: Entity)
+    fun deleteById(id: Identifier)
 }

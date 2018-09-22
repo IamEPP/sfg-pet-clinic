@@ -6,4 +6,6 @@ import javax.persistence.Table
 
 @Entity
 @Table(name = "vets")
-class Vet : Person()
+class Vet(firstName: String, lastName: String) : Person(firstName, lastName) {
+    constructor() : this(firstName = "", lastName = "")
+}

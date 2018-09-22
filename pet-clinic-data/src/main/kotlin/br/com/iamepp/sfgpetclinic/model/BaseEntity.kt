@@ -4,7 +4,7 @@ import java.util.*
 import javax.persistence.*
 
 @MappedSuperclass
-abstract class BaseEntity {
+abstract class BaseEntity() {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -12,4 +12,8 @@ abstract class BaseEntity {
 
     val isNew: Boolean
         get() = Objects.nonNull(id)
+
+    constructor(id: Long?) : this() {
+        this.id = id
+    }
 }

@@ -41,7 +41,7 @@ class MapBasedInMemoryGenericRepositoryTest {
         val owner = Owner(1L, "John", "Doe")
         mapBasedInMemoryGenericRepository.save(owner.id, owner)
         val found = mapBasedInMemoryGenericRepository.findById(1L)
-        val notFound = mapBasedInMemoryGenericRepository.findById(1L)
+        val notFound = mapBasedInMemoryGenericRepository.findById(2L)
         assertThat(found, `is`(notNullValue()))
         assertThat(notFound, `is`(nullValue()))
     }

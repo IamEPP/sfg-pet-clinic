@@ -9,5 +9,4 @@ class SfgPetClinicApplication
 
 fun main(args: Array<String>) {
     runApplication<SfgPetClinicApplication>(*args)
-    
 }

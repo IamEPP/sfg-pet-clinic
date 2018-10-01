@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        kotlinVersion = '1.2.61'
+        kotlinVersion = '1.2.71'
         springBootVersion = '2.0.4.RELEASE'
         lombokVersion = '1.18.2'
         hibernateVersion = '1.18.2'
@@ -34,7 +34,7 @@ apply plugin: 'net.researchgate.release'
 
 group = 'br.com.iamepp'
 version = '0.0.2-SNAPSHOT'
-sourceCompatibility = 10
+sourceCompatibility = 11
 
 bootJar {
     mainClassName = "br.com.iamepp.sfgpetclinic.SfgPetClinicApplication"

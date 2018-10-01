@@ -6,7 +6,8 @@ import javax.persistence.Table
 
 @Entity
 @Table(name = "owners")
-class Owner(id: Long?, firstName: String, lastName: String) : Person(id, firstName, lastName) {
+class Owner(id: Long?, firstName: String, lastName: String) :
+        Person(id, firstName, lastName) {
     constructor() : this(id = 0L, firstName = "", lastName = "")
 }
 

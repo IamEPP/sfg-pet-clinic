@@ -5,10 +5,12 @@
 /pet-clinic-data/.gradle
 /pet-clinic-data/build/
 /pet-clinic-data/out/
+/pet-clinic-data/bin/
 
 /pet-clinic-web/.gradle
 /pet-clinic-web/build/
 /pet-clinic-web/out/
+/pet-clinic-web/bin/
 
 
 
@@ -34,3 +36,6 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+### VSCode
+.vscode

@@ -20,4 +20,8 @@ abstract class Person(id: Long? = null) : BaseEntity(id) {
         this.firstName = firstName
         this.lastName = lastName
     }
+
+    override fun toString(): String {
+        return "Person(firstName='$firstName', lastName='$lastName')"
+    }
 }

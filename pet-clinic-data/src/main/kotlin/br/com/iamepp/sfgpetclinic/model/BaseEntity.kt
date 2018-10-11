@@ -11,7 +11,7 @@ abstract class BaseEntity() {
     var id: Long? = null
 
     val isNew: Boolean
-        get() = Objects.nonNull(id)
+        get() = Objects.isNull(id)
 
     constructor(id: Long?) : this() {
         this.id = id

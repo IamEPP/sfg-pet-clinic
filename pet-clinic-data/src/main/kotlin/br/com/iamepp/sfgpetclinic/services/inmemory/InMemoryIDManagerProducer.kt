@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration
 @Configuration
 class InMemoryIDManagerProducer {
     @Bean
-    fun createOwnerInMemoryDataSource(): InMemoryIDManager<Long> {
+    fun createLongInMemoryIDManager(): InMemoryIDManager<Long> {
         return LongInMemoryIDManager
     }
 }

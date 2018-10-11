@@ -6,6 +6,9 @@ import javax.persistence.Table
 
 @Entity
 @Table(name = "vets")
-class Vet(firstName: String, lastName: String) : Person(firstName, lastName) {
-    constructor() : this(firstName = "", lastName = "")
+class Vet(id: Long?, firstName: String, lastName: String) : Person(id, firstName, lastName) {
+    constructor() : this(id = 0L, firstName = "", lastName = "")
+    override fun toString(): String {
+        return "Vet() ${super.toString()}"
+    }
 }

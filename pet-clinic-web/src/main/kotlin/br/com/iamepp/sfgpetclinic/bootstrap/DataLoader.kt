@@ -5,15 +5,14 @@ import br.com.iamepp.sfgpetclinic.model.Vet
 import br.com.iamepp.sfgpetclinic.services.OwnerService
 import br.com.iamepp.sfgpetclinic.services.VetService
 import com.github.javafaker.Faker
-import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component
 import java.util.*
 
 @Component
 class DataLoader(
-        @Autowired private val ownerService: OwnerService,
-        @Autowired private val vetService: VetService) : CommandLineRunner {
+        private val ownerService: OwnerService,
+        private val vetService: VetService) : CommandLineRunner {
 
     override fun run(vararg args: String?) {
         val faker = Faker(Locale.US)

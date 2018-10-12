@@ -24,7 +24,6 @@ class InMemoryDatasourceHelperProducer {
     @Bean
     @Qualifier("inMemoryVetRepository")
     fun vetInMemoryDataSource(): InMemoryGenericRepository<Vet, Long> {
-
         return MapBasedInMemoryGenericRepository()
     }
 }

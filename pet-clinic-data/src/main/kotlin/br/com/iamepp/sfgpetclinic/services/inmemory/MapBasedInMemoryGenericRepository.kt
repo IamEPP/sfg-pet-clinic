@@ -1,6 +1,7 @@
 package br.com.iamepp.sfgpetclinic.services.inmemory
 
 import org.springframework.stereotype.Component
+import java.lang.IllegalArgumentException
 import java.util.function.Predicate
 import java.util.stream.Collectors
 

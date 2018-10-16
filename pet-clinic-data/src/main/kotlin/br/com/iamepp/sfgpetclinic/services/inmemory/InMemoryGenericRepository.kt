@@ -1,6 +1,5 @@
 package br.com.iamepp.sfgpetclinic.services.inmemory
 
-import br.com.iamepp.sfgpetclinic.services.CrudService
 import java.util.function.Predicate
 
 interface InMemoryGenericRepository<E, ID> {

@@ -17,7 +17,8 @@ class OwnerInMemoryService(
 ) : OwnerService, InMemoryGenericRepository<Owner, Long> by genericRepository {
 
     override fun save(entity: Owner): Owner {
-        if (entity.isNew) entity.id = inMemoryIDManager.getNextKey()
+        if (entity.isNew)
+            entity.id = inMemoryIDManager.getNextKey()
         return genericRepository.save(entity.id!!, entity)
     }
 

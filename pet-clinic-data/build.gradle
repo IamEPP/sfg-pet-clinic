@@ -66,6 +66,7 @@ dependencies {
     compile('javax.xml.bind:jaxb-api:2.3.0')
     compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     compile("org.jetbrains.kotlin:kotlin-reflect")
+    compile('org.hibernate:hibernate-validator:6.0.13.Final')
     compileOnly("org.projectlombok:lombok:${lombokVersion}")
     runtime('com.h2database:h2')
     runtime('mysql:mysql-connector-java')
